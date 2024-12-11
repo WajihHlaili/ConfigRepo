@@ -1,0 +1,10 @@
+eureka:
+      client:
+          serviceUrl:
+                defaultZone:http://localhost:0003/eureka
+spring:
+    cloud:
+        gateway: 
+            routes:
+                  - id :microservice-user
+                  uri
